@@ -1,2 +1,8 @@
+table, td{
+    margin-top: 15px ;
+    border: 2px solid black;
+    width: 400px;
+    height: 50px;
+}
 
 /* Your CSS Code here. */
