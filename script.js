@@ -37,7 +37,6 @@ function addToTable(){
         itemName.value = '' ;
         itemPrice.value = '' ;
     }
-
 }
 
 addButton.onclick = addToTable;
