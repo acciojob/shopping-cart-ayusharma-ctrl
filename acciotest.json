@@ -1,4 +1,5 @@
 {
     "testRepo": "shopping-cart-solution",
-    "pathToFile": "cypress/integration/tests/test.spec.js"
+   /* "pathToFile": "cypress/integration/tests/test.spec.js" */
+    "pathToFile": "test.js"
 }
