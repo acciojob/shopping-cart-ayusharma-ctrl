@@ -8,22 +8,30 @@
 
 <body>
 
-	<input type="text" id="item-name-input" placeholder="Item Name">
-	<input type="text" id="item-price-input" placeholder="Item Price">
-	<button id="add"></button>
+	<form>
+		<label for="item-name-input">Name</label>
+		<input type="text" id="item-name-input" placeholder="Item Name">
+
+		<label for="item-price-input">Price</label>
+		<input type="number" id="item-price-input" placeholder="Item Price">
+		
+		<button type="submit" id="add">Add</button>
+	</form>
 
 	<div>
 		<table id="table">
 			<tr>
-				<td id="total"> <h3>Grand Total</h3> </td>
-				<td id="sum" >0</td>
+				<td id="total">
+					<h3>Grand Total</h3>
+				</td>
+				<td id="sum">0</td>
 			</tr>
 		</table>
 	</div>
 
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+	<script type="text/javascript" src="./script.js">
+	</script>
 
 </body>
 
