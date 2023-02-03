@@ -1,4 +1,10 @@
-const app =require('./app.js');
-app.listen('3000',()=>{
-  console.log("Listening on port 3000");
+const express = require('express');
+const path = require('path');
+const app =express();
+
+app.use(express.static(__dirname));
+app.get('/',(req,res)=>{
+  res.sendFile(path.join(__dirname+'/main.html'));
 })
+
+module.exports = app;
